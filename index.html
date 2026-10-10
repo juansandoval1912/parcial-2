@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Países</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Consulta de Países</h1>
+        <p class="descripcion">Consulta información de diferentes países.</p>
+
+        <div class="buscador">
+            <input type="text" id="buscarPais" placeholder="Escribe un país...">
+            <button id="btnBuscar">Buscar</button>
+            <button id="btnTodos">Mostrar todos</button>
+        </div>
+
+        <p id="mensaje">Cargando países...</p>
+        <p id="contador"></p>
+
+        <div id="listaPaises" class="lista-paises"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
